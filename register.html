@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>login</title>
+<style>
+    body{
+        background-image: url("coolHue-A0FE65-FA016D.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        color:aliceblue;
+        }
+    a{
+        color:rgb(219, 32, 141);
+    }
+    section
+    {   
+        width: 60%;
+        height: auto;
+        margin: auto;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid rgb(18, 138, 236);
+        box-shadow: 1px 1px 12px 5px lightseagreen;
+        border-radius: 25px ;
+        font-size: x-large;
+    }
+    table{
+        margin: auto;
+        font-size: x-large;
+        text-align: center;
+        }
+    #sub{
+        background-color: lightgreen;
+        font-size:large;
+    }
+    #sub:hover
+    {
+        background-color:tomato;
+        cursor: pointer;
+    }
+    section:hover{
+        box-shadow: none;
+    }
+    #tf1,#tf2{
+        box-shadow: 1px 1px 15px 5px rgb(36, 130, 231);
+        height:50px ;
+        width:300px;
+        border-radius: 5px;
+    } #tf1:hover,#tf2:hover{
+        box-shadow:none;
+        
+    }
+    h1{
+        color:rgb(219, 32, 141);
+    }
+</style>
+</head>
+<body>
+    <section>
+        <h1>Register Now!   </h1>
+    <form action="reg-process.jsp" method="post">
+        <table>
+        <tr><td><input type="text" name="fname" id="tf1" placeholder="First Name" required/></td>
+        <td><input type="text" name="lname" id="tf2" placeholder="Last Name" required/></td></tr><br><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr><td><input type="text" name="email" id="tf1" placeholder="Email" required/></td>
+        <td><input type="text" name="userid" id="tf2" placeholder="UserId" required/></td></tr><br><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr><td><input type="password" name="password" id="tf1" placeholder="Password" required/></td>
+        <td><input type="password" name="repassword" id="tf1" placeholder="Re enter-Password"/></td></tr>
+    </table><br>
+    <input type="submit" id="sub"/> 
+        </form>
+</section>
+</body>
+</html>
